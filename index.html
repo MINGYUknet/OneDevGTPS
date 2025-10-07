@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OneDev GTPS</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: radial-gradient(circle at top, #0f0f0f 0%, #000 100%);
+      color: #fff;
+      text-align: center;
+    }
+
+    header {
+      padding: 70px 20px 40px;
+      font-size: 3.5em;
+      font-weight: 800;
+      background: linear-gradient(90deg, red, lime, blue);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: rgbText 4s infinite linear;
+    }
+
+    @keyframes rgbText {
+      0% { filter: hue-rotate(0deg); }
+      100% { filter: hue-rotate(360deg); }
+    }
+
+    .desc {
+      font-size: 1.2em;
+      margin: 0 auto;
+      width: 85%;
+      line-height: 1.6;
+      background: linear-gradient(90deg, #ff0000, #00ff00, #0000ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: rgbText 6s infinite linear;
+    }
+
+    .section {
+      margin: 60px auto;
+      width: 90%;
+      max-width: 600px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 0 25px rgba(255,255,255,0.1);
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 30px;
+      font-weight: 600;
+      border-radius: 12px;
+      background: linear-gradient(90deg, #ff0000, #00ff00, #0000ff);
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      opacity: 0.8;
+    }
+
+    .status {
+      margin-top: 10px;
+      font-size: 1em;
+      color: #00ff7f;
+    }
+
+    pre {
+      background: #111;
+      color: #00ffcc;
+      padding: 15px;
+      border-radius: 12px;
+      text-align: left;
+      overflow-x: auto;
+      margin-top: 20px;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>OneDev GTPS</header>
+  <p class="desc">
+    GTPS OneDev adalah server private Growtopia yang dikembangkan untuk memberikan pengalaman bermain cepat, stabil, dan penuh warna.  
+    Nikmati fitur eksklusif dan komunitas yang aktif — semuanya hadir dalam gaya RGB yang modern!
+  </p>
+
+  <div class="section">
+    <h2>Server Status</h2>
+    <div class="status">🟢 Server Online</div>
+  </div>
+
+  <div class="section">
+    <h2>Download VHost</h2>
+    <a href="https://www.mediafire.com/file/k3xgiaa5pni45ex/OneDev.txt/file" class="btn" target="_blank">Download OneDev VHost</a>
+    <h3 style="margin-top:30px;">Copy untuk Windows:</h3>
+    <pre>
+91.134.85.13 growtopia1.com
+91.134.85.13 growtopia2.com
+91.134.85.13 www.growtopia1.com
+91.134.85.13 www.growtopia2.com
+    </pre>
+  </div>
+
+  <footer>
+    © 2025 OneDev GTPS — Made with by the OneDev Team.
+  </footer>
+</body>
+  </html>
